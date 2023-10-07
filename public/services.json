@@ -1,0 +1,58 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Game Dev Resources",
+            "short_description": "Access a wealth of resources for game developers and E-sports players.",
+            "long_description": "Explore a vast library of game development tutorials, assets, and tools to fuel your creativity. Stay updated with the latest industry trends and best practices to craft immersive gaming experiences. Access expert forums and participate in developer communities to collaborate and gain insights. Dive into in-depth coding tutorials, game design theory, and cutting-edge graphics techniques. Our resources cater to beginners and seasoned developers alike, ensuring you have everything you need to bring your game ideas to life.",
+            "price": 299,
+            "background_color": "#333333",
+            "image_url": "https://i.ibb.co/KV0J0ML/id-1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Training and Coaching",
+            "short_description": "Enhance your gaming skills with expert training and coaching.",
+            "long_description": "Receive personalized training and coaching sessions from professional gamers and coaches. Improve your gameplay, master advanced strategies, and elevate your performance to compete at the highest level. Our experienced coaches provide one-on-one guidance, analyzing your gameplay and offering tailored strategies. From refining your aiming skills to enhancing teamwork, our training programs cover various aspects of competitive gaming. Gain insights into game mechanics, map strategies, and effective communication to dominate the esports arena.",
+            "price": 499,
+            "background_color": "#2C2C2C",
+            "image_url": "https://i.ibb.co/mDjbmYC/id-2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Tournament Organization",
+            "short_description": "Host and manage esports tournaments seamlessly on online and offline.",
+            "long_description": "Organize and host online esports tournaments effortlessly. From setting up brackets to managing registrations and live-streaming matches, our platform provides comprehensive tools to ensure smooth and exciting tournaments for players and viewers alike. Customize tournament formats, match rules, and prize structures according to your preferences. Utilize our robust admin panel to oversee matches in real-time, resolve disputes, and ensure fair play. Engage your audience with interactive polls and viewer challenges, enhancing the overall tournament experience.",
+            "price": 799,
+            "background_color": "#292929",
+            "image_url": "https://i.ibb.co/Z8qsJqh/id-3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Merchandise Store",
+            "short_description": "Shop exclusive gaming merchandise and collectibles.",
+            "long_description": "Browse through a curated collection of gaming merchandise, including team jerseys, limited edition collectibles, and high-quality gaming peripherals. Show off your gaming passion with style and indulge in premium products inspired by your favorite games. Discover exclusive collaborations with renowned artists and game developers, resulting in unique and limited-edition collectibles. From ergonomic gaming chairs to custom-designed mouse pads, our merchandise store offers a wide range of products to enhance your gaming setup and showcase your love for gaming culture.",
+            "price": 399,
+            "background_color": "#3A3A3A",
+            "image_url": "https://i.ibb.co/RQv5shj/id-4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Talent Management",
+            "short_description": "Connect with top esports talents and industry professionals.",
+            "long_description": "Discover a platform that bridges the gap between talent and opportunities. Whether you're a talented gamer, caster, analyst, or host, our talent management service connects you with esports organizations, events, and sponsors to help you thrive in the competitive gaming industry. Showcase your skills and portfolio to potential employers, securing contracts and collaborations with leading gaming brands. Benefit from career guidance, negotiation support, and networking opportunities, ensuring your journey in the esports industry is both successful and fulfilling.",
+            "price": 699,
+            "background_color": "#262626",
+            "image_url": "https://i.ibb.co/L5WcXk1/id-5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Collaboration Solutions",
+            "short_description": "Unlock sponsorship opportunities and strategic partnerships.",
+            "long_description": "Forge valuable partnerships and secure sponsorships with leading gaming brands and companies. Our comprehensive management service assists esports teams and organizations in negotiating deals, managing contracts, and maximizing their brand exposure, ensuring a mutually beneficial collaboration for all parties involved. Access our network of industry contacts, participate in pitch sessions, and receive expert guidance to create compelling sponsorship proposals. Elevate your team's visibility, attract sponsors aligned with your brand values, and embark on successful, long-term partnerships that elevate your esports journey.",
+            "price": 899,
+            "background_color": "#313131",
+            "image_url": "https://i.ibb.co/ZfNdLR6/id-6.jpg"
+        }
+    ]
+}

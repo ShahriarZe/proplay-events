@@ -38,8 +38,8 @@ const Login = () => {
     return (
         <div>
             <div className="items-center justify-center bg-cover bg-center min-h-screen text-white" style={bgStyle}>
-                <h2 className="text-3xl text-center font-bold">Please Login</h2>
                 <form onSubmit={handleLogin} className=" card-body md:3/4 lg:w-1/2 mx-auto">
+                    <h2 className="text-3xl mt-24 text-center font-bold">Please Login</h2>
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text text-white">Email</span>
