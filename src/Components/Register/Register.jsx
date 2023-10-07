@@ -3,6 +3,7 @@ import { FaGoogle } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import loginBg from '../../assets/login-reg-bg.png'
+import toast from "react-hot-toast";
 
 const Register = () => {
     const bgStyle = {
@@ -20,6 +21,8 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                e.target.reset()
+                toast.success('Successfully Signed In!')
             })
             .catch(err => {
                 console.log(err);
