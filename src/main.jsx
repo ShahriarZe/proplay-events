@@ -11,10 +11,13 @@ import Register from './Components/Register/Register';
 import AuthProvider from './Providers/AuthProvider';
 import Home from './Components/Home/Home';
 import Coaches from './Components/Pages/Coaches';
+import Shop from './Components/Pages/Shop';
+import ErrorPage from './Components/Pages/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/login",
@@ -32,6 +35,10 @@ const router = createBrowserRouter([
         path: "/coaches",
         element: <Coaches></Coaches>
       },
+      {
+        path: "/shop",
+        element: <Shop></Shop>
+      },
     ]
   },
 ]);
@@ -40,5 +47,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AuthProvider>
       <RouterProvider router={router} />
     </AuthProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 )

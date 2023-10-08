@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Gaming Monitor",
+            "description": "Immersive gaming experience with high refresh rates and vibrant colors, ideal for competitive gaming , online streaming ad designing",
+            "recommendation": "Highly Recommended",
+            "price": 299.99,
+            "image": "https://i.ibb.co/zFrQrPv/Monitor.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Keyboard Mouse Combo",
+            "description": "Optimize your gameplay with this high-performance keyboard and mouse combo, designed for precision and speed.",
+            "recommendation": "Recommended",
+            "price": 79.95,
+            "image": "https://i.ibb.co/GR9JydD/KM-combo.jpg"
+        },
+        {
+            "id": 3,
+            "name": "VR Box",
+            "description": "Explore virtual worlds with this advanced VR box, providing immersive experiences and realistic gameplay.",
+            "recommendation": "Recommended",
+            "price": 149.99,
+            "image": "https://i.ibb.co/NW8JG3f/Vr2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Gaming Controller",
+            "description": "Enhance your gaming sessions with this ergonomic gaming controller, featuring responsive buttons and precise controls.",
+            "recommendation": "Highly Recommended",
+            "price": 49.99,
+            "image": "https://i.ibb.co/rvjskrp/con2.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Smart Watch",
+            "description": "Stay connected on the go with this smartwatch, packed with gaming-related apps and fitness features.",
+            "recommendation": "Recommended",
+            "price": 199.95,
+            "image": "https://i.ibb.co/dkBDPfQ/Watch.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Gaming Chair",
+            "description": "Ergonomic design for long gaming sessions, featuring adjustable armrests and lumbar support.Easy to Move and log lasting",
+            "recommendation": "Highly Recommended",
+            "price": 199.99,
+            "image": "https://i.ibb.co/LxtKvdd/GC.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Gaming Laptop",
+            "description": "Portable powerhouse for gamers, with high-end graphics and processing power for seamless gameplay.",
+            "recommendation": "Highly Recommended",
+            "price": 1499.99,
+            "image": "https://i.ibb.co/Xk6pQww/Laptop.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Gaming Headset",
+            "description": "Immerse yourself in 3D audio with this gaming headset, featuring noise-canceling technology and comfortable ear cushions.",
+            "recommendation": "Recommended",
+            "price": 129.95,
+            "image": "https://i.ibb.co/7SK7s5M/HS.jpg"
+        }
+    ]
+}
