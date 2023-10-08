@@ -18,6 +18,19 @@ const Register = () => {
         const name = form.get('name')
         const image = form.get('image')
         console.log(email, password, name, image);
+        if (password.length < 6) {
+            e.target.reset()
+            return toast.error('Password Must be 6 Character long')
+        }
+        else if(!/[A-Z]/.test(password)){
+            e.target.reset()
+            return toast.error('Must contain 1 Uppercase letter')
+        }
+        else if(!/[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/.test(password)){
+            e.target.reset()
+            return toast.error('Must contain 1 special Character')
+        }
+            
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
@@ -26,6 +39,8 @@ const Register = () => {
             })
             .catch(err => {
                 console.log(err);
+                e.target.reset()
+                toast.error('User Already Exist')
             })
     }
 

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
@@ -10,6 +10,8 @@ const Login = () => {
         backgroundImage: `url(${loginBg})`,
     }
     const { googleSignIn, signInUser } = useContext(AuthContext)
+    const location = useLocation()
+    const navigate = useNavigate()
     const handleLogin = e => {
         e.preventDefault()
         const form = new FormData(e.currentTarget)
@@ -20,16 +22,20 @@ const Login = () => {
             .then(result => {
                 console.log(result.user);
                 e.target.reset()
+                navigate(location?.state ? location.state : '/')
                 toast.success('Successfully Logged In!')
             })
             .catch(err => {
                 console.log(err);
+                e.target.reset()
+                toast.error('Wrong Password')
             })
     }
     const handleGoogleButton = () => {
         googleSignIn()
             .then(result => {
                 console.log(result.user);
+                toast.success('Successfully Logged In!')
             })
             .catch(err => {
                 console.log(err);

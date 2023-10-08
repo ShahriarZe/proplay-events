@@ -13,6 +13,7 @@ import Home from './Components/Home/Home';
 import Coaches from './Components/Pages/Coaches';
 import Shop from './Components/Pages/Shop';
 import ErrorPage from './Components/Pages/ErrorPage';
+import PrivateRoute from './Routes/PrivateRoute';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,11 +34,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/coaches",
-        element: <Coaches></Coaches>
+        element: <PrivateRoute>
+          <Coaches></Coaches>
+        </PrivateRoute>
       },
       {
         path: "/shop",
-        element: <Shop></Shop>
+        element: <PrivateRoute>
+          <Shop></Shop>
+        </PrivateRoute>
       },
     ]
   },
