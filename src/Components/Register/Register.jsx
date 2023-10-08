@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import loginBg from '../../assets/login-reg-bg.png'
 import toast from "react-hot-toast";
+import { updateProfile } from "firebase/auth";
 
 const Register = () => {
+    const location = useLocation()
+    const navigate = useNavigate()
     const bgStyle = {
         backgroundImage: `url(${loginBg})`,
     }
@@ -34,6 +37,10 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                updateProfile(result.user,{
+                    displayName:name,
+                    photoURL:image
+                })
                 e.target.reset()
                 toast.success('Successfully Signed In!')
             })
@@ -48,6 +55,8 @@ const Register = () => {
         googleSignIn()
             .then(result => {
                 console.log(result.user);
+                navigate(location?.state ? location.state : '/')
+                toast.success('Successfully Logged In!')
             })
             .catch(err => {
                 console.log(err);

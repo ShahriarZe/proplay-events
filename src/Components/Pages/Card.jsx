@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import 'aos/dist/aos.css';
 
 /* eslint-disable react/prop-types */
 const Card = ({ card }) => {
-    const { name, image_url, short_description, background_color, price,id } = card
+    const { name, image_url, short_description, background_color, price, id } = card
     const cardStyle = {
         background: background_color
     }
     return (
-        <div>
+        <div data-aos="zoom-out-right"
+        data-aos-duration="1000">
             <div className="card  bg-transparent border shadow-xl text-white" style={cardStyle} >
                 <figure><img className="h-64 w-full" src={image_url} alt="Shoes" /></figure>
                 <div className="card-body ">

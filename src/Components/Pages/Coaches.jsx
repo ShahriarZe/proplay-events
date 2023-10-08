@@ -28,7 +28,8 @@ const Coaches = () => {
             <h2 className=" text-center text-white text-3xl lg:text-7xl font-extrabold mb-5 mt-10">
                 Meet Our Coaches
             </h2>
-            <div className="overflow-x-auto container mx-auto">
+            <div className="overflow-x-auto container mx-auto"  data-aos="fade-up"
+                data-aos-duration="1000">
                 <table className="table text-xl text-white mb-10">
                     {/* head */}
                     <thead className='text-white'>

@@ -1,11 +1,12 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import loginBg from '../../assets/login-reg-bg.png'
 import toast from "react-hot-toast";
 
 const Login = () => {
+    const [errorText, setErrorText] = useState('')
     const bgStyle = {
         backgroundImage: `url(${loginBg})`,
     }
@@ -26,15 +27,17 @@ const Login = () => {
                 toast.success('Successfully Logged In!')
             })
             .catch(err => {
+                setErrorText(err.message)
                 console.log(err);
                 e.target.reset()
-                toast.error('Wrong Password')
+                toast.error('Wrong Information')
             })
     }
     const handleGoogleButton = () => {
         googleSignIn()
             .then(result => {
                 console.log(result.user);
+                navigate(location?.state ? location.state : '/')
                 toast.success('Successfully Logged In!')
             })
             .catch(err => {
@@ -63,6 +66,11 @@ const Login = () => {
                     </div>
                     <div className="form-control mt-6">
                         <button className="btn btn-outline text-white">Login</button>
+                    </div>
+                    <div>
+                        {
+                            errorText && <p className="text-red-600">{errorText}</p>
+                        }
                     </div>
                     <label className="label">
                         New here? <Link to="/register" className="label-text-alt link link-hover text-white">Create an account</Link>

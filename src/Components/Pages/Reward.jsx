@@ -11,14 +11,15 @@ const Reward = () => {
         backgroundImage: `url(${CardBg})`,
     }
     return (
-        <div className='mt-20 text-white' style={bgCard}>
+        <div className='mt-20 text-white' style={bgCard} >
             <div>
                 <h2 className="text-center text-7xl font-extrabold">
                     Reward For Our Client
                 </h2>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 container mx-auto gap-10 mt-5'>
-                <div className="card  glass">
+                <div className="card  glass" data-aos="zoom-out-left"
+                    data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconA} alt="car!" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-3xl font-bold">Silver Tier :</h2>
@@ -29,7 +30,8 @@ const Reward = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  glass">
+                <div className="card  glass" data-aos="zoom-out-left"
+                    data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconB} alt="car!" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-3xl font-bold">Gold Tier :</h2>
@@ -40,7 +42,8 @@ const Reward = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  glass">
+                <div className="card  glass" data-aos="zoom-out-left"
+                    data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconC} alt="car!" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-3xl font-bold">Diamond Tier :</h2>
@@ -51,7 +54,8 @@ const Reward = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  glass">
+                <div className="card  glass" data-aos="zoom-out-left"
+                    data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconD} alt="car!" /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-3xl font-bold">Platinum Tier :</h2>

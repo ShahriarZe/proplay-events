@@ -14,6 +14,7 @@ import Coaches from './Components/Pages/Coaches';
 import Shop from './Components/Pages/Shop';
 import ErrorPage from './Components/Pages/ErrorPage';
 import PrivateRoute from './Routes/PrivateRoute';
+import ViewDetails from './Components/Pages/ViewDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -44,6 +45,12 @@ const router = createBrowserRouter([
           <Shop></Shop>
         </PrivateRoute>
       },
+      {
+        path: "/card/:id",
+        element: <PrivateRoute>
+          <ViewDetails></ViewDetails>
+        </PrivateRoute>
+      }
     ]
   },
 ]);
