@@ -5,7 +5,7 @@ const Banner = () => {
         backgroundImage: `url(${bannerBg})`
     }
     return (
-        <div className="hero min-h-screen" style={bgStyle}>
+        <div className="hero min-h-screen relative z-0" style={bgStyle}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-white" data-aos="fade-up"
                 data-aos-duration="1000">

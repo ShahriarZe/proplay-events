@@ -17,7 +17,7 @@ const Shop = () => {
     }, [])
     return (
         <div style={bgStyle}>
-                <div>
+                <div className="p-20">
                     <h2 className="text-white text-center text-3xl lg:text-7xl font-extrabold mb-5">
                         Welcome To Our Merchandise Shop
                     </h2>

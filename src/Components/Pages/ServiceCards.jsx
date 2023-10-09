@@ -11,8 +11,8 @@ const ServiceCards = () => {
 
     return (
         <div className="mt-10" >
-            <div className="text-center text-7xl font-extrabold">
-                <h2>Services You Will Get !!</h2>
+            <div className="text-center text-4xl lg:text-7xl font-extrabold">
+                <h2>Services You Will Get !</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 container mx-auto gap-10 mt-10">
                 {

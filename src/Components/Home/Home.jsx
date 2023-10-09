@@ -5,7 +5,7 @@ import ServiceCards from "../Pages/ServiceCards";
 
 const Home = () => {
     return (
-        <div>
+        <div className="bg-purple-100">
             <Banner></Banner>
             <ServiceCards></ServiceCards>
             <Reward></Reward>

@@ -25,22 +25,23 @@ const Register = () => {
             e.target.reset()
             return toast.error('Password Must be 6 Character long')
         }
-        else if(!/[A-Z]/.test(password)){
+        else if (!/[A-Z]/.test(password)) {
             e.target.reset()
             return toast.error('Must contain 1 Uppercase letter')
         }
-        else if(!/[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/.test(password)){
+        else if (!/[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/.test(password)) {
             e.target.reset()
             return toast.error('Must contain 1 special Character')
         }
-            
+
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
-                updateProfile(result.user,{
-                    displayName:name,
-                    photoURL:image
+                updateProfile(result.user, {
+                    displayName: name,
+                    photoURL: image
                 })
+                navigate(location?.state ? location.state : '/')
                 e.target.reset()
                 toast.success('Successfully Signed In!')
             })

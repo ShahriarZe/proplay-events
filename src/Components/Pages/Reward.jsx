@@ -13,12 +13,12 @@ const Reward = () => {
     return (
         <div className='mt-20 text-white' style={bgCard} >
             <div>
-                <h2 className="text-center text-7xl font-extrabold">
+                <h2 className="text-center text-4xl lg:text-7xl font-extrabold">
                     Reward For Our Client
                 </h2>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 container mx-auto gap-10 mt-5'>
-                <div className="card  glass" data-aos="zoom-out-left"
+                <div className="card  glass" data-aos="fade-up"
                     data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconA} alt="car!" /></figure>
                     <div className="card-body">
@@ -30,7 +30,7 @@ const Reward = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  glass" data-aos="zoom-out-left"
+                <div className="card  glass" data-aos="fade-up"
                     data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconB} alt="car!" /></figure>
                     <div className="card-body">
@@ -42,7 +42,7 @@ const Reward = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  glass" data-aos="zoom-out-left"
+                <div className="card  glass" data-aos="fade-up"
                     data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconC} alt="car!" /></figure>
                     <div className="card-body">
@@ -54,7 +54,7 @@ const Reward = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  glass" data-aos="zoom-out-left"
+                <div className="card  glass" data-aos="fade-up"
                     data-aos-duration="1000">
                     <figure><img className='rounded-xl' src={IconD} alt="car!" /></figure>
                     <div className="card-body">

@@ -8,7 +8,7 @@ const Card = ({ card }) => {
         background: background_color
     }
     return (
-        <div data-aos="zoom-out-right"
+        <div data-aos="flip-right"
         data-aos-duration="1000">
             <div className="card  bg-transparent border shadow-xl text-white" style={cardStyle} >
                 <figure><img className="h-64 w-full" src={image_url} alt="Shoes" /></figure>

@@ -16,7 +16,7 @@ const Coaches = () => {
     }
     return (
         <div style={bgStyle}>
-            <div className="hero text-white ">
+            <div className="hero text-white pt-20 ">
                 <div className="">
                     <div className="">
                         <h1 className="text-3xl lg:text-7xl font-bold text-center">Need A Coach For Your Team? </h1>

@@ -80,7 +80,7 @@ const Login = () => {
 
                 </form>
                 <div className="flex justify-center">
-                    <div>
+                    <div className="mb-5">
                         <button onClick={handleGoogleButton} className="text-white btn btn-outline ">
                             <FaGoogle></FaGoogle>
                             Google

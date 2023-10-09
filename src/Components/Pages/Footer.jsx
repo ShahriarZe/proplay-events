@@ -26,11 +26,14 @@ const Footer = () => {
                 <a className="link link-hover">Cookie policy</a>
             </nav>
             <form>
-               
+            
                 <h2 className='text-3xl font-extrabold'>
                     ProPlay E-sports Event LTD
                 </h2>
                 <p> © SHAHRIAR AHMMED - All right reserved by ProPlay Events Ltd</p>
+                
+                    
+                
             </form>
         </div>
     );
