@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>In the given code `greetign` is declared, but 'greeting' is used later in the code. JavaScript is case-sensitive, so `greetign` and `greeting` are considered two different variables. For this reason ReferenceError occured</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>In this code `a` contains a number and `b` contains a string.We know Javascript converts the number 1 to a string and then concatenates the two strings together.For this reason we got Output as "12" </i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>When we change the value of `info.favoriteFood`, we are only changing the value of a property on the info object. The `food` array is still pointing to the same array object, which contains the values "🍕", "🍫", "🥑", and "🍔".Modifying the `info` object does not alter the contents of the `food` array, so when we log `food`, it remains unchanged.</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i> In the given code the function `sayHi`  is called without any arguments. This means that the `name` parameter will be set to the default value, which is undefined.Fo this reason we got output as `Hi there, undefined`.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>In the code,the `forEach()` method iterates through the `nums` array, incrementing the `count` variable for each non-zero element. For each element in the array, the callback function checks if the element is not equal to zero. If it is not equal to zero, the counter variable `count` is incremented.After the `forEach()` method has finished iterating over the array, the `count` variable will contain the number of non-zero elements in the array. Since the `nums` array contains three non-zero elements, the output of the code snippet will be `3`.</i>
 
 </p>
 </details>
