@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: B
 
-<i>In the given code `greetign` is declared, but 'greeting' is used later in the code. JavaScript is case-sensitive, so `greetign` and `greeting` are considered two different variables. For this reason ReferenceError occured</i>
+<i>In the given code `greetign` is declared, but `greeting` is used later in the code. JavaScript is case-sensitive, so `greetign` and `greeting` are considered two different variables. For this reason ReferenceError occured</i>
 
 </p>
 </details>
