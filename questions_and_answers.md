@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: B
 
-<i>In the given code `greetign` is declared, but 'greeting' is used later in the code. JavaScript is case-sensitive, so `greetign` and `greeting` are considered two different variables. For this reason ReferenceError occured</i>
+<i>In the given code `greetign` is declared, but `greeting` is used later in the code. JavaScript is case-sensitive, so `greetign` and `greeting` are considered two different variables. For this reason ReferenceError occured</i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: C
 
-<i>In this code `a` contains a number and `b` contains a string.We know Javascript converts the number 1 to a string and then concatenates the two strings together.For this reason we got Output as "12" </i>
+<i>In the given code, variable `a` holds the numerical value 1, and variable `b` holds the string "2". In JavaScript, when we use the `+` operator with a number and a string, the number is automatically converted to a string, and then the two strings are concatenated together.So, in the expression 1 + "2", JavaScript converts the number 1 to the string "1" and then concatenates it with the string "2", for this reason we got output `"12"` </i>
 
 </p>
 </details>
