@@ -21,7 +21,7 @@ const GetUpdates = () => {
                             <div className="form-control">
                                 <label className="input-group ">
                                     <span onClick={handleSub} className="bg-primary">Subscibe</span>
-                                    <input type="text" placeholder="Email here" className="input input-bordered lg:input-lg" />
+                                    <input type="text" placeholder="Email here" className="input input-bordered input-sm lg:input-lg" />
                                 </label>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const Card = ({ card }) => {
                         <div className="badge badge-secondary">NEW</div>
                     </h2>
                     <p className="lg:text-xl">{short_description}</p>
-                    <button className="flex justify-start btn btn-ghost text-xl w-2/4 mt-2 text-white">Price: {price} $</button>
+                    <button className="flex justify-start btn btn-ghost text-xl lg:w-2/4 mt-2 text-white">Price: {price} $</button>
                     <div className="card-actions justify-center mt-5">
                         <Link to={`/card/${id}`}>
                             <button className="btn w-full btn-outline text-white">Show Details</button>
