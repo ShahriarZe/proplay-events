@@ -1,5 +1,6 @@
 # ProPlay E-Sports Event Management LTD
 ## Live Link : https://proplay-events.web.app/
+## Technology Used : React,React Router, Firebase,Tailwind CSS & DaisyUI 
 
 ## Features :
 
